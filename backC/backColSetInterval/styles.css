@@ -1,0 +1,20 @@
+div{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+
+button{
+    padding:1rem 3rem;
+    border:0;
+
+}
+
+button:hover{
+    
+    border:1px solid #000;
+}
