@@ -1,6 +1,7 @@
 let backColBody;
 let startButton = document.querySelector("#start")
 let stopButton = document.querySelector("#stop")
+let resetButton = document.querySelector("#reset")
 
 
 
@@ -14,4 +15,9 @@ startButton.addEventListener("click", () => {
 
 stopButton.addEventListener("click",() => {
     clearInterval(backColBody)
+})
+
+
+resetButton.addEventListener("click", ()=> {
+  document.querySelector("body").style.backgroundColor = "#fff"
 })
