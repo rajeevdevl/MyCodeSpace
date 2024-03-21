@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Keyboard check</title>
+</head>
+<body>
+    <div>
+        <input type="text" name="" id="inputKey" onkeydown="pressedKey(event)">
+        <h1>You have pressed the keyword : <span id="key"></span></h1>
+    </div>
+</body>
+
+<script>
+   function pressedKey(e) {
+   
+    document.querySelector("#key").innerHTML = e.key;
+   }
+</script>
+</html>
